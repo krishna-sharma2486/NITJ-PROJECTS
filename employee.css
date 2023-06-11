@@ -1,0 +1,210 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nitj img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1263px;
+    height: 647px;
+}
+
+#box1 {
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 47px;
+    left: 4%;
+    width: 1153px;
+    height: 551px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#box2 {
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 47px;
+    right: 72px;
+    width: 498px;
+    height: 551px;
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+}
+
+#box2 img {
+    width: 285px;
+    height: 285px;
+    position: relative;
+    top: 24px;
+    left: 110px;
+}
+
+#name {
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+    top: 11px;
+    left: 52px;
+    width: 401px;
+    color: #414141;
+}
+
+#admin{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    width: 106px;
+    height: 31px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#admin:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#employee{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    width: 106px;
+    height: 31px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#employee:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#login {
+    font-weight: 500;
+    font-size: 69px;
+    position: absolute;
+    top: 67px;
+    left: 163px;
+    color: #414141;
+}
+
+#email {
+    font-weight: 500;
+    position: absolute;
+    top: 209px;
+    left: 191px;
+    color: #414141;
+    font-size: 25px;
+}
+
+#password {
+    font-weight: 500;
+    position: absolute;
+    top: 307px;
+    left: 191px;
+    color: #414141;
+    font-size: 25px;
+}
+
+#e {
+    text-indent: 40px;
+    padding: 24px;
+    width: 392px;
+    height: 0px;
+    position: absolute;
+    top: 224px;
+    left: 96px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+#p {
+    text-indent: 40px;
+    padding: 24px;
+    width: 392px;
+    height: 0px;
+    position: absolute;
+    top: 321px;
+    left: 96px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#forgot {
+    font-weight: 400;
+    position: absolute;
+    top: 398px;
+    left: 449px;
+    color: black;
+    font-size: 19px;
+}
+
+#submit {
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 600;
+    width: 159px;
+    height: 47px;
+    position: absolute;
+    top: 410px;
+    left: 233px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#submit:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#dont {
+    font-weight: 400;
+    position: absolute;
+    top: 483px;
+    left: 259px;
+    color: black;
+    font-size: 19px;
+}
+
+#signup {
+    position: absolute;
+    top: 506px;
+    left: 436px;
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+#options {
+    font-weight: 400;
+    position: absolute;
+    top: 544px;
+    left: 217px;
+    color: black;
+    font-size: 19px;
+}
+
+#icon1 img {
+    position: absolute;
+    top: 279px;
+    left: 162px;
+    height: 36px;
+}
+#icon2 img {
+    position: absolute;
+    top: 375px;
+    left: 162px;
+    height: 36px;
+}

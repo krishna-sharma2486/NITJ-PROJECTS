@@ -1,0 +1,210 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nitj img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1263px;
+    height: 647px;
+}
+
+#box1 {
+    backdrop-filter: blur(7px);
+    position: absolute;
+    top: 47px;
+    left: 4%;
+    width: 1153px;
+    height: 551px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+#box2 {
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 47px;
+    right: 72px;
+    width: 498px;
+    height: 551px;
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+}
+
+#box2 img {
+    width: 285px;
+    height: 285px;
+    position: relative;
+    top: 24px;
+    left: 110px;
+}
+
+#name {
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+    top: 11px;
+    left: 52px;
+    width: 401px;
+    color: #414141;
+}
+
+#admin{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    width: 106px;
+    height: 31px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#admin:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#employee{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    width: 106px;
+    height: 31px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#employee:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#login {
+    font-weight: 500;
+    font-size: 64px;
+    position: absolute;
+    top: 45px;
+    left: 163px;
+    color: #414141;
+}
+
+#email {
+    font-weight: 500;
+    position: absolute;
+    top: 263px;
+    left: 191px;
+    color: #414141;
+    font-size: 25px;
+}
+
+#password {
+    font-weight: 500;
+    position: absolute;
+    top: 357px;
+    left: 191px;
+    color: #414141;
+    font-size: 25px;
+}
+#username{
+    font-weight: 500;
+    position: absolute;
+    top: 169px;
+    left: 191px;
+    color: #414141;
+    font-size: 25px;
+}
+
+
+#e {
+    text-indent: 40px;
+    padding: 24px;
+    width: 392px;
+    height: 0px;
+    position: absolute;
+    top: 277px;
+    left: 96px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+#p {
+    text-indent: 40px;
+    padding: 24px;
+    width: 392px;
+    height: 0px;
+    position: absolute;
+    top: 373px;
+    left: 96px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#n {
+    text-indent: 40px;
+    padding: 24px;
+    width: 392px;
+    height: 0px;
+    position: absolute;
+    top: 184px;
+    left: 96px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+#submit {
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 600;
+    width: 159px;
+    height: 47px;
+    position: absolute;
+    top: 446px;
+    left: 233px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+#submit:hover{
+    background-color: #0ea5e9;
+    color: white;
+}
+
+#options {
+    font-weight: 400;
+    position: absolute;
+    top: 544px;
+    left: 217px;
+    color: black;
+    font-size: 19px;
+}
+
+#icon1 img {
+    position: absolute;
+    top: 332px;
+    left: 162px;
+    height: 36px;
+}
+#icon2 img {
+    position: absolute;
+    top: 427px;
+    left: 162px;
+    height: 36px;
+}
+#icon3 img {
+    position: absolute;
+    top: 238px;
+    left: 162px;
+    height: 36px;
+}
