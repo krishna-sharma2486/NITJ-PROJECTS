@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
+    <link rel="icon" type="image/x-icon" href="nitjlogo.png">
     <link rel="stylesheet" href="admin.css">
 </head>
 
@@ -13,17 +14,18 @@
         <img src="nitj.jpg" alt="">
     </div>
 
-    <div id="box1">
+
+    <div class="box1" id="box1">
 
         <button id="admin" formaction=""><a href="admin.html" style="text-decoration: none; color: black;">Admin</a></button>
         <button id="employee" formaction=""><a href="employee.html" style="text-decoration: none; color: black;">Employee</a></button>
 
         <form action="backend.php">
-            <input required type="email" id="e" style="font-size: 20px;">
-            <input required type="password" id="p" style="font-size: 20px;">
+            <input required type="email" id="e"placeholder="Enter your email" style="font-size: 15px;">
+            <input required type="password" id="p" placeholder="Password" style="font-size: 15px;">
             <input type="submit" id="submit">
         </form>
-    </div>
+    
 
     <h1 id="login">
         Admin Login
@@ -39,12 +41,13 @@
         Forgot Password?
     </h4>
     <div id="signup">
-        <a href="signup.html" style="text-decoration: none; color: black;">Sign Up</a>
+        <a href="signup.html" style="text-decoration: none; color: rgb(102, 19, 19); ">Sign Up</a>
     </div>
 
-    <div id="box2">
+    <div class="box2" id="box2">
         <img src="nitjlogo.png" alt="">
-        <h1 id="name">Dr. BR Ambedkar National Institute of Technology</h1>
+        <h1 id="name">Dr. B.R. Ambedkar</h1> 
+        <h1 id="name">National Institute of Technology</h1>
     </div>
 
     <div id="icon1">
@@ -52,6 +55,7 @@
     </div>
     <div id="icon2">
         <img src="lock.png" alt="">
+    </div>
     </div>
 </body>
 

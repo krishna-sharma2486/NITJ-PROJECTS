@@ -1,62 +1,72 @@
+@media (min-width: 768px) {
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #nitj img {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1263px;
-    height: 647px;
+    width: 100%;
+    height: 100%;
 }
 
 #box1 {
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(9px);
+    backface-visibility: initial;
+    /* background-color: #ffffff; */
     position: absolute;
-    top: 47px;
-    left: 4%;
-    width: 1153px;
-    height: 551px;
-    border: 1px solid gray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 710px;
+    height: 320px;
+    border: 0.5px solid gray;
     border-radius: 25px;
 }
 
 #box2 {
-    background-color: white;
+    /* background-filter: blur(20px); */
+    /* background-color: white; */
     opacity: 0.9;
     position: absolute;
-    top: 47px;
-    right: 72px;
-    width: 498px;
-    height: 551px;
+    top: 0%;
+    right: 3%;
+    width: 311.5px;
+    height: 320px;
     /* border: 2px solid blue; */
     border-radius: 25px;
 }
 
 #box2 img {
-    width: 285px;
-    height: 285px;
+    width: 55%;
+    height: 50%;
     position: relative;
-    top: 24px;
-    left: 110px;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: #101010;
 }
 
 #name {
-    font-size: 42px;
+    font-weight: 750;
+    font-size: 160%;
     text-align: center;
     position: relative;
-    top: 11px;
-    left: 52px;
-    width: 401px;
-    color: #414141;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 97%;
+    color: #ffffff;
 }
 
 #admin{
     cursor: pointer;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
-    width: 106px;
-    height: 31px;
+    width: 75px;
+    height: 25px;
     position: relative;
     top: 11px;
     left: 11px;
@@ -65,16 +75,17 @@
     border-radius: 25px;
 }
 #admin:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     background-color: #0ea5e9;
     color: white;
 }
 
 #employee{
     cursor: pointer;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 500;
-    width: 106px;
-    height: 31px;
+    width: 75px;
+    height: 25px;
     position: relative;
     top: 11px;
     left: 11px;
@@ -83,59 +94,60 @@
     border-radius: 25px;
 }
 #employee:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     background-color: #0ea5e9;
     color: white;
 }
 
 #login {
     font-weight: 500;
-    font-size: 69px;
+    font-size: 40px;
     position: absolute;
-    top: 67px;
-    left: 165px;
-    color: #414141;
+    top: 8%;
+    left: 15%;
+    color: #242323;
 }
 
 #email {
     font-weight: 500;
     position: absolute;
-    top: 209px;
-    left: 191px;
+    top: 97px;
+    left: 65px;
     color: #414141;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #password {
     font-weight: 500;
     position: absolute;
-    top: 307px;
-    left: 191px;
+    top: 160px;
+    left: 65px;
     color: #414141;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #e {
-    text-indent: 40px;
-    padding: 24px;
-    width: 392px;
-    height: 0px;
+    text-indent: 25px;
+    padding: 16px;
+    width: 280px;
+    height: 0.7px;
     position: absolute;
-    top: 224px;
-    left: 96px;
+    top: 135px;
+    left: 55px;
     background-color: white;
-    border: 1px solid black;
-    border-radius: 25px;
+    border: 0.7px solid black;
+    border-radius: 30px;
 
 }
 
 #p {
-    text-indent: 40px;
-    padding: 24px;
-    width: 392px;
-    height: 0px;
+    text-indent: 25px;
+    padding: 16px;
+    width: 280px;
+    height: 0.7px;
     position: absolute;
-    top: 321px;
-    left: 96px;
+    top: 200px;
+    left: 55px;
     background-color: white;
     border: 1px solid black;
     border-radius: 25px;
@@ -152,13 +164,13 @@
 
 #submit {
     cursor: pointer;
-    font-size: 21px;
-    font-weight: 600;
-    width: 159px;
-    height: 47px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 120px;
+    height: 35px;
     position: absolute;
-    top: 426px;
-    left: 233px;
+    top: 245px;
+    left: 150px;
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -171,13 +183,75 @@
 
 #icon1 img {
     position: absolute;
-    top: 279px;
-    left: 162px;
-    height: 36px;
+    top: 139px;
+    left: 60px;
+    width: 25px;
+    height: 25px;
 }
 #icon2 img {
     position: absolute;
-    top: 375px;
-    left: 162px;
-    height: 36px;
+    top: 204px;
+    left: 60px;
+    width: 25px;
+    height: 25px;
 }
+#signup {
+position: relative;
+font-weight: 700;
+font-size: medium;
+
+top:250px;
+left:90px;
+
+}
+}
+@media (max-width: 767px) {
+    *{
+        font-family: 'Segoe UI','Roboto', Tahoma, Geneva, Verdana, sans-serif;
+        background: rgb(255, 255, 255);
+    }
+    #box1 {
+        backdrop-filter: blur(9px);
+        backface-visibility: initial;
+        /* background-color: #ffffff; */
+        position: absolute;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+        height: 500px;
+        border: 0.5px solid gray;
+        border-radius: 20px;
+    }
+    #box2 {
+        backdrop-filter: blur(20px);
+        /* background-color: white; */
+        opacity: 0.9;
+        position: absolute;
+        top: 0%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        width: 300px;
+        height: 100px;
+        /* border: 2px solid blue; */
+        border-radius: 20px;
+    }
+    #box2 img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(-50%,-50%);
+        text-shadow: #101010;
+    }
+    
+    #name {
+        display: none;
+    }
+    
+    
+    }
+    
+  
