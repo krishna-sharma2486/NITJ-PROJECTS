@@ -113,7 +113,7 @@
     position: absolute;
     top: 97px;
     left: 65px;
-    color: #414141;
+    color: #474745;
     font-size: 15px;
 }
 
@@ -122,7 +122,7 @@
     position: absolute;
     top: 160px;
     left: 65px;
-    color: #414141;
+    color: #474745;
     font-size: 15px;
 }
 
@@ -156,10 +156,11 @@
 #forgot {
     font-weight: 400;
     position: absolute;
-    top: 398px;
-    left: 449px;
+    top: 233px;
+    left: 275px;
     color: black;
-    font-size: 19px;
+    font-size: 13px;
+
 }
 
 #submit {
@@ -195,7 +196,7 @@
     width: 25px;
     height: 25px;
 }
-#signup {
+/* #signup {
 position: relative;
 font-weight: 700;
 font-size: medium;
@@ -203,7 +204,7 @@ font-size: medium;
 top:250px;
 left:90px;
 
-}
+} */
 }
 @media (max-width: 767px) {
     *{
